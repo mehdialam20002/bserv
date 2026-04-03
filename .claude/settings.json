@@ -23,7 +23,9 @@
       "Bash(kill %1)",
       "Bash(pkill -f \"node src/server.js\")",
       "Bash(netstat -ano)",
-      "Bash(taskkill //PID 2164 //F)"
+      "Bash(taskkill //PID 2164 //F)",
+      "Bash(npx vercel:*)",
+      "Bash(npm list:*)"
     ]
   }
 }
