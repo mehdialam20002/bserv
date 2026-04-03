@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.unitechimaging.in)",
+      "Bash(npx create-react-app:*)",
+      "Bash(npm install:*)",
+      "Bash(ls \"C:/Users/DELL/Desktop/bserv/frontend/src/components/MachineCard\"*)",
+      "Bash(npx react-scripts:*)",
+      "Bash(npx prisma:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(psql -U postgres -c \"SELECT 1\")",
+      "Bash(where psql:*)",
+      "Read(//c/Program Files/PostgreSQL//**)",
+      "Bash(\"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -U postgres -c \"SELECT datname FROM pg_database WHERE datname='bserv_photocopy'\")",
+      "Bash(\"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -U postgres -c \"CREATE DATABASE bserv_photocopy\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(PGPASSWORD=admin \"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -U postgres -c \"CREATE DATABASE bserv_photocopy\")",
+      "Bash(node src/seeds/seed.js)",
+      "Bash(node src/server.js)",
+      "Bash(curl -s http://localhost:5000/api/health)",
+      "Bash(curl -s http://localhost:5000/api/machines/featured)",
+      "Bash(curl -s http://localhost:5000/api/categories)",
+      "Bash(kill %1)",
+      "Bash(pkill -f \"node src/server.js\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 2164 //F)"
+    ]
+  }
+}
